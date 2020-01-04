@@ -1,0 +1,183 @@
+body {
+    background-image: url(lotrimages/body2.jpg);
+    /*картинка фона*/
+    background-size: 100%;
+}
+
+#world {
+    background-color: #4B3E3C;
+    /*цвет фона*/
+    box-shadow: 10px 10px 20px black;
+    /*тень элемента*/
+    position: relative;
+    /*способ позиционирования элемента относительно окна браузера или других объектов на веб-странице.*/
+    bottom: 62px;
+    /*Устанавливает положение нижнего края содержимого элемента без учета толщины рамок и отступов.*/
+    margin-left: -10px;
+    /*Устанавливает величину отступа от левого края элемента*/
+    margin-right: -10px;
+    /*Устанавливает величину отступа от правого края элемента*/
+}
+
+#main:hover {
+    color: #D2BC7D;
+}
+
+#main {
+    text-decoration: none;
+    color: #87CEEB;
+}
+
+h1 {
+    font-size: 80px;
+    /*Определяет размер шрифта элемента.*/
+    text-align: center;
+    /*Определяет горизонтальное выравнивание текста в пределах элемента.*/
+    color: #FAE3CB;
+    font-family: fantasy;
+    /*Устанавливает семейство шрифта*/
+    font-style: italic;
+    /*Определяет начертание шрифта*/
+    text-shadow: 8px 8px 8px #EAC059;
+    ;
+    /*Теньтекста*/
+}
+
+#regist1 {
+    background-color: #4B3E3C;
+    border: 6px groove #585550;
+    width: 120px;
+    height: 70px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-bottom: 26px;
+    font-size: 16px;
+    Position: relative;
+    left: 1500px;
+    bottom: 1040px;
+}
+
+.regist2 {
+    text-decoration: none;
+    color: #BA55D3;
+    opacity: 0.5;
+}
+
+.regist2:hover {
+    opacity: 1;
+}
+
+.enter {
+    text-decoration: none;
+    color: #BA55D3;
+    opacity: 0.5;
+}
+
+.enter:hover {
+    opacity: 1;
+}
+
+.menu ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul {
+    position: relative;
+    bottom: 114px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #C5826C;
+    background-color: #C5826C;
+    white-space: nowrap;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: #FAE3CB;
+
+}
+
+.menu ul a:hover {
+    color: red;
+}
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    bottom: inherit;
+}
+
+.menu ul li:hover {
+    background-color: #D1AD55;
+}
+
+.menu ul ul li:hover {
+    background-color: #D1AD55;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li:hover li {
+    display: block;
+}
+
+.menu li {
+    width: 470px;
+    height: 20%;
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+    bottom: 600px;
+}
+
+.cont {
+    position: absolute;
+    bottom: 16px;
+    left: 8px;
+    color: skyblue;
+}
+
+.center {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 160px;
+    opacity: 0.7;
+}
+
+.center:hover {
+    opacity: 1;
+}
+
+#middle {
+    color: violet;
+    font-size: 20px;
+}
+
+#earth {
+    color: #C5826C;
+}
+
+.law {
+    background-color: #4B3E3C;
+    margin-top: 14px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 18px;
+    color: #C09E51;
+}
+
+iframe {
+    border: none;
+    display: block;
+}
